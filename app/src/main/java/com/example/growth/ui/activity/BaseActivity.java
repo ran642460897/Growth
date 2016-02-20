@@ -2,6 +2,7 @@ package com.example.growth.ui.activity;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
+import android.widget.Toast;
 
 import com.example.growth.annotation.ViewInject;
 
@@ -22,6 +23,9 @@ public class BaseActivity extends FragmentActivity {
     public void setContentView(int layoutResID) {
         super.setContentView(layoutResID);
         injectView();
+    }
+    public void alter(String s){
+        Toast.makeText(this,s,Toast.LENGTH_LONG).show();
     }
     /**
      * View注射

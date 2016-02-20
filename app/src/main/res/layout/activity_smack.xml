@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/smack_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="帐号"
+        android:paddingLeft="10dp"/>
+    <EditText
+        android:id="@+id/smack_psd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="密码"
+        android:paddingLeft="10dp"/>
+    <TextView
+        android:id="@+id/smack_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="未登录"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textColor="@android:color/darker_gray"/>
+    <Button
+        android:id="@+id/smack_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="登录"
+        android:padding="10dp"/>
+    <Button
+        android:id="@+id/smack_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="退出登录"
+        android:padding="10dp" />
+</LinearLayout>

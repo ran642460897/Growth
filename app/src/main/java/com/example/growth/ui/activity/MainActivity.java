@@ -21,9 +21,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         TextView jni=(TextView)findViewById(R.id.main_jni);
         TextView openGL=(TextView)findViewById(R.id.main_openGL);
         TextView curl=(TextView)findViewById(R.id.main_curl);
+        TextView spinner=(TextView)findViewById(R.id.main_spinner);
+        TextView smack=(TextView)findViewById(R.id.main_smack);
         jni.setOnClickListener(this);
         openGL.setOnClickListener(this);
         curl.setOnClickListener(this);
+        spinner.setOnClickListener(this);
+        smack.setOnClickListener(this);
     }
 
     @Override
@@ -40,6 +44,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.main_curl:
                 i=new Intent(this,CurlActivity.class);
+                startActivity(i);
+                break;
+            case R.id.main_spinner:
+                i=new Intent(this,SpinnerActivity.class);
+                startActivity(i);
+                break;
+            case R.id.main_smack:
+                i=new Intent(this,SmackActivity.class);
                 startActivity(i);
                 break;
             default:

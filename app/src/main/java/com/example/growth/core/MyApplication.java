@@ -7,7 +7,7 @@ import android.app.Application;
  * Date:2016-02-01 16:27
  * Note:
  */
-public class CustomApplication extends Application {
+public class MyApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();

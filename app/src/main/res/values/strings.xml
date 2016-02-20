@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Growth</string>
+    <array name="area">
+        <item>广安市</item>
+        <item>绵阳市</item>
+    </array>
 </resources>
