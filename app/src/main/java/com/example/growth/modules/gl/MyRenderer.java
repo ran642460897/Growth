@@ -1,4 +1,4 @@
-package com.example.growth.renderer;
+package com.example.growth.modules.gl;
 
 import android.opengl.GLSurfaceView;
 

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ui.activity.MainActivity">
+    tools:context=".modules.main.MainActivity">
 
     <TextView
         android:padding="10dp"
@@ -12,33 +12,46 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Jni"/>
+        android:text="Jni"
+        android:background="@drawable/selector_click"/>
     <TextView
         android:padding="10dp"
         android:id="@+id/main_openGL"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="openGL"/>
+        android:text="openGL"
+        android:background="@drawable/selector_click"/>
     <TextView
         android:padding="10dp"
         android:id="@+id/main_curl"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="curl"/>
+        android:text="curl"
+        android:background="@drawable/selector_click"/>
     <TextView
         android:padding="10dp"
         android:id="@+id/main_spinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="spinner"/>
+        android:text="spinner"
+        android:background="@drawable/selector_click"/>
     <TextView
         android:padding="10dp"
         android:id="@+id/main_smack"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="smack"/>
+        android:text="smack"
+        android:background="@drawable/selector_click"/>
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/main_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="event"
+        android:background="@drawable/selector_click"/>
 </LinearLayout>

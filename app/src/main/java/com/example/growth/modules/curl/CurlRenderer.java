@@ -14,7 +14,7 @@
    limitations under the License.
 */
 
-package com.example.growth.renderer;
+package com.example.growth.modules.curl;
 
 import java.util.Vector;
 
@@ -26,8 +26,6 @@ import android.graphics.PointF;
 import android.graphics.RectF;
 import android.opengl.GLSurfaceView;
 import android.opengl.GLU;
-
-import com.example.growth.mesh.CurlMesh;
 
 /**
  * Actual renderer class.

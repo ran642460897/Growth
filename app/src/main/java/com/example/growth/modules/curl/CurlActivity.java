@@ -14,7 +14,7 @@
    limitations under the License.
 */
 
-package com.example.growth.ui.activity;
+package com.example.growth.modules.curl;
 
 import android.app.Activity;
 import android.graphics.Bitmap;
@@ -25,7 +25,6 @@ import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 
 import com.example.growth.R;
-import com.example.growth.ui.view.CurlView;
 
 /**
  * Simple Activity for curl testing.

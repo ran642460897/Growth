@@ -14,7 +14,7 @@
    limitations under the License.
 */
 
-package com.example.growth.mesh;
+package com.example.growth.modules.curl;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;

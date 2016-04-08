@@ -1,4 +1,4 @@
-package com.example.growth.ui.activity;
+package com.example.growth.modules.main;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -7,6 +7,12 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.example.growth.R;
+import com.example.growth.modules.curl.CurlActivity;
+import com.example.growth.modules.event.EventActivity;
+import com.example.growth.modules.gl.OpenGLActivity;
+import com.example.growth.modules.jni.JniActivity;
+import com.example.growth.modules.smack.SmackActivity;
+import com.example.growth.modules.spinner.SpinnerActivity;
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
@@ -23,11 +29,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         TextView curl=(TextView)findViewById(R.id.main_curl);
         TextView spinner=(TextView)findViewById(R.id.main_spinner);
         TextView smack=(TextView)findViewById(R.id.main_smack);
+        TextView event=(TextView)findViewById(R.id.main_event);
         jni.setOnClickListener(this);
         openGL.setOnClickListener(this);
         curl.setOnClickListener(this);
         spinner.setOnClickListener(this);
         smack.setOnClickListener(this);
+        event.setOnClickListener(this);
     }
 
     @Override
@@ -52,6 +60,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.main_smack:
                 i=new Intent(this,SmackActivity.class);
+                startActivity(i);
+                break;
+            case R.id.main_event:
+                i=new Intent(this,EventActivity.class);
                 startActivity(i);
                 break;
             default:

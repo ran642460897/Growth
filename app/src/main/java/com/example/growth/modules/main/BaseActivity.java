@@ -1,4 +1,4 @@
-package com.example.growth.ui.activity;
+package com.example.growth.modules.main;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;

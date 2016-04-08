@@ -14,7 +14,7 @@
    limitations under the License.
  */
 
-package com.example.growth.ui.view;
+package com.example.growth.modules.curl;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -25,8 +25,8 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.example.growth.mesh.CurlMesh;
-import com.example.growth.renderer.CurlRenderer;
+import com.example.growth.modules.curl.CurlMesh;
+import com.example.growth.modules.curl.CurlRenderer;
 
 /**
  * OpenGL ES View.

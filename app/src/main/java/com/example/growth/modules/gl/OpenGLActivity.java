@@ -1,9 +1,9 @@
-package com.example.growth.ui.activity;
+package com.example.growth.modules.gl;
 
 import android.opengl.GLSurfaceView;
 import android.os.Bundle;
 
-import com.example.growth.renderer.MyRenderer;
+import com.example.growth.modules.main.BaseActivity;
 
 /**
  * Creator:ran

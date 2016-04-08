@@ -1,4 +1,4 @@
-package com.example.growth.jni;
+package com.example.growth.modules.jni;
 
 /**
  * Creator:ran
